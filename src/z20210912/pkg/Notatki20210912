@@ -1,0 +1,51 @@
+int[] array => int array[]
+
+teoretycznie dla dwuwym moznaby int[] array []
+
+if (csotam0 {
+continue; //zakonczenie iteracji, rozpoczecie nowej. Reszta kodu.
+continue przerywa iteracje, brak przerywa pętle
+}
+
+a[1]="X"
+a[2]="Y"
+
+
+for (String s: a) {
+sout (s + " "
+}
+
+null X Y
+
+String tekst2 = tekst.trim(); ///trim usuwa z przodu i z tyłu
+
+input.isBlank
+
+replaceall
+
+"happy"
+charAt ->  okreslony znak 1 to "a"
+Substring -> od tego znaku daej 1 to "appy"
+
+
+name = ((city.getName() == null) ? "N/A" : city.getName())
+
+if (city.getName() != null) {
+    name = city.getName();
+} else {
+    name="N/A";
+}
+
+replace - zamienia kazdy
+replaceall - mozna uizyc regexa
+
+
+STRINGBUILDER
+
+/*        for (int x : tablica) {
+            System.out.println(x);
+        }*/
+
+            static  void Z17(int l1, int ... ln) {
+
+            }

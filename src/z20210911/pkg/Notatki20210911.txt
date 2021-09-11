@@ -1,1 +1,11 @@
 mavena załadowac mvn --version (na za tydzien w niedziele)
+
+
+sout("5+2 = " + 4 +3) --> 5+2 = 43
+sout(4+3+"5+2 = ") ---? 7+2 =
+
+
+static int {
+i=0;
+j=4;
+}
