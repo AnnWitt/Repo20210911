@@ -35,9 +35,15 @@ public class Zad3 {
 
         //y++<++x i jednoczesnie --x < y++ (sprawdz
         return ((firstDigit++)<(++secondDigit))&&((--firstDigit<secondDigit++));
-    }
+    } //Popraw
 
-    //dokoncz to zadanie
+    private static boolean Zad3_4(int firstDigit, int secondDigit) {
+
+
+        return ((firstDigit++)<(++secondDigit))&&((--firstDigit<secondDigit++));
+    } //!!!!Zrob
+
+
 
 
     //---
