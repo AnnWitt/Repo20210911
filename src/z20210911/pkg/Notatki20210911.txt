@@ -1,0 +1,1 @@
+mavena załadowac mvn --version (na za tydzien w niedziele)
