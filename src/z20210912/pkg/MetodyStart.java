@@ -400,6 +400,66 @@ false*/
 
     //Z7============koniec==========
 
+    //z9---------start===========
+
+    static void Z9 () {
+        Scanner scanner=new Scanner(System.in);
+        String input="";
+        String longest="";
+
+
+        while (!input.equals("Enough")) {
+            System.out.println();
+            System.out.println("Please insert your text: ");
+            input=scanner.nextLine();
+            if (longest.length()<input.length() && !input.equals("Enough")){
+                longest=input;
+            } else if (input.equals("")) {
+                System.out.print("No input ");
+
+            }
+
+        }
+
+        System.out.println("najdluzszy " + longest);
+
+    }
+
+
+    //z9---------koniec----------
+
+
+    //Z10 ------------ start ------
+
+    static int Z10Ile () {
+        Scanner scanner=new Scanner((System.in));
+        System.out.println(" Ile słów: ");
+        int input= scanner.nextInt();
+        System.out.println("Do wprowadzenia " + input + " slow");
+        return input;
+
+    }
+
+    static String Z10() { //3
+        System.out.println("Zadanie 10");
+        int amount=Z10Ile();
+        Scanner scanner=new Scanner((System.in));
+        int counter=0;
+        String input="";
+        String result="";
+
+        while (counter<amount) {
+            System.out.println("Insert " + (counter+1 + " word"));
+            input=scanner.nextLine();
+            result=result+Character.toString(input.charAt(input.length()-1));
+            counter++;
+
+        }
+
+        return result;
+    }
+
+    //Z10--------koniec--------
 
 
     }

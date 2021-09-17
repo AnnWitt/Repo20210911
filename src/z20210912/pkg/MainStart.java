@@ -30,7 +30,11 @@ public class MainStart {
         //MetodyStart.Z17(5,7,4,5,0,9,6,2,4,3);
         //7 5 5 4 0 2 3 4 6 9
         //MetodyPodZ18.Z18Wywowanie(100);
-        MetodyStart.Z7("Ala ma kota");
+        //MetodyStart.Z7("Ala ma kota");
+        //MetodyStart.Z9();
+        System.out.println(MetodyStart.Z10());
+
+
 
 
 
