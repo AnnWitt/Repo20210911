@@ -1,0 +1,1 @@
+- jak ustawić przy debbugerze obok siebie terminal i Debug

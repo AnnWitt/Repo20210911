@@ -382,6 +382,8 @@ false*/
     program, który utworzy tablicę zawierającą 10 losowych liczb całkowitych z przedziału
 0 9 Następnie wypisze ile razy dana liczba pojawiła się w tablicy*/
 
+    //MetodyStart.Z18(100);
+
     static int[] tblLiczblosowych (int ileLiczb) {
         int[] tbl=new int[ileLiczb];
         for (int i=0;i<ileLiczb;i++) {
@@ -391,10 +393,9 @@ false*/
     }
 
     static int[][] Z18licznik (int[] tblwylosowana, int ileLiczb) {
-        tblwylosowana=tblLiczblosowych(ileLiczb);
         int[][] dwuwym=new int[10][ileLiczb];
 
-        for (int i=0;i<ileLiczb;i++) {
+        for (int i=0;i<(10);i++) {
             dwuwym[i][1]=i;
         }
         return dwuwym;
@@ -402,11 +403,37 @@ false*/
 
     //row 1 kol 1
     static void Z18 (int ileLiczb) {
-        //int[] tbl=tblLiczblosowych(ileLiczb);
-        int[][] tblDw=Z18licznik(tblLiczblosowych(ileLiczb),ileLiczb);
+        int[] tbl=tblLiczblosowych(ileLiczb);
+/*        for (int s: tbl) {
+            System.out.print(s + " "); //tablica się zaciagnela
+        }*/
+       // int[][] tblDw=Z18licznik(tblLiczblosowych(ileLiczb),ileLiczb);
+       int[][] tblDw=Z18licznik(tbl,ileLiczb);
+
+ /*       for (int i=0;i<10;i++) {
+            System.out.println();
+           // for (int j=0;j<2;j++) {
+                tblDw[i][1]=i;
+                System.out.print(tblDw);
+            }*/
+
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < ileLiczb; j++) { //or (int j = 0; j < ileLiczb; j++) {
+                tblDw[i][j] = 0;
+                System.out.print(tblDw[i][j]);
+
+            }
+            System.out.println();
+        }
 
 
-    }
+
+        }
+       // return tblDw;
+        }
+
+
+   // }
 
 
 
@@ -414,4 +441,4 @@ false*/
 
 
 
-}
+
