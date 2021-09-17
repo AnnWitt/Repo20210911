@@ -1,1 +1,2 @@
 - jak ustawić przy debbugerze obok siebie terminal i Debug
+- ustawienie sie na zmiennej - jak sie robilo aby pokazywal gdzie ona jest wykorzystywana
