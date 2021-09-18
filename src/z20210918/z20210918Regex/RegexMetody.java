@@ -33,6 +33,13 @@ public class RegexMetody {
             \s – tak zwane białe znaki czyli znak spacji czy tabulacji [ \t\n\r\f\x0B]. Możesz je opisać jako znaki, które nie są widoczne podczas wydruku,
 \S – negacja grupy \s czyli [^ \t\n\r\f\x0B].*/
 
+static boolean Z8IsValidNumber(String number){
+    String regex="[-]?[0-9]+[,]?[0-9]+";
+    String regex2="-?\\d+(,\\d+)?)"; //podobny
+    Pattern pattern=Pattern.compile(regex);
+    Matcher matcher=pattern.matcher(number);
+    return matcher.matches();
+}
 
 
     //----------koniecRegexMetody
