@@ -1,0 +1,3 @@
+static int count = 0 -. moga byc modyfikowane przez inne metody. Wspoldzielona to dla
+innej moze byc juz np 5 bo pierwsza podbiła wczesniejszym wywolaniem
+int i=0 - osobna dla kazdego, dla kazdego od zera

@@ -4,7 +4,6 @@ public class MetodyPodZ18 {
 
     static int[] wylosowana;
 
-
     /*    Napisz
     program, który utworzy tablicę zawierającą 10 losowych liczb całkowitych z przedziału
 0 9 Następnie wypisze ile razy dana liczba pojawiła się w tablicy*/

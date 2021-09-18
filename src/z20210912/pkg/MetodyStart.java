@@ -376,8 +376,6 @@ false*/
 
         //Z17============koniec==========
 
-
-
     //Z7============start==========
 
     static void Z7 (String text) {
