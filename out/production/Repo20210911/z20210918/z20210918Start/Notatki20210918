@@ -1,0 +1,12 @@
+static int count = 0 -. moga byc modyfikowane przez inne metody. Wspoldzielona to dla
+innej moze byc juz np 5 bo pierwsza podbiła wczesniejszym wywolaniem
+int i=0 - osobna dla kazdego, dla kazdego od zera
+
+localDAte.of(1900,01,01)
+localDAte.parse("1900-01-01", DateTimeFormatter.iso_date
+
+
+// Formater tworzymy - nowy, dla siebibe
+DateTimeFormatter formatter=DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+//LocalDate classesDate=LocalDate.parse(classesString, DateTimeFormatter.ISO_LOCAL_DATE);
+LocalDateTime nextClassesDate=LocalDateTime.parse(classesString, formatter);
