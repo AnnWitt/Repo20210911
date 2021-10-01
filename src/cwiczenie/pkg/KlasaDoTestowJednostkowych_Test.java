@@ -1,6 +1,7 @@
 package cwiczenie.pkg;
 
 import org.junit.Assert;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
@@ -22,7 +23,9 @@ class KlasaDoTestowJednostkowych_Test {
     assertEquals(expectedResult,result);
     }
 
-@Test void isSumaOK() {
+@Test
+@Disabled //kod tej metody sie nie uruchomi jak pusci sie calosc
+void isSumaOK() {
     //given
     int expectedResult=10;
     //when
